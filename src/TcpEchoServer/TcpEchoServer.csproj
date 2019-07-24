@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UserSecretsId>dotnet-TcpEchoServer-0203180E-0CF5-4A52-82BB-63E123899360</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.0.0-preview7.19362.4" />
+    <PackageReference Include="System.IO.Pipelines" Version="4.6.0-preview7.19362.9" />
+  </ItemGroup>
+</Project>
